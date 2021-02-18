@@ -1,0 +1,62 @@
+html{
+    font-family: Roboto;
+}
+
+.body-background {
+    background-image: url('../assets/gettyimages-1132930101.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-form-background {
+    background-image: url('../assets/fundo-de-formularios-sobrepostos_23-2148653920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-plane {
+    width: 600px;
+    height: auto;
+    margin-left: 40px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    padding: 8px;
+}
+
+iframe {
+    border: none;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.container {
+    border: 1px green solid;
+    margin: 10% 4%;
+    padding: 100px;
+    background-image: url('../assets/images.jpg');
+    border-radius: 15px;
+}
+
+.form-container {
+    border: 1px green solid;
+    margin: 10% 4%;
+    padding: 100px;
+    background-image: url('../assets/form-893708_960_720.webp');
+    border-radius: 40px;
+}
+
+

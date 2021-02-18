@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World</title>
+    <link rel="stylesheet" href="styles/css.css">
+    <title>Cadastrar</title>
 </head>
-<body>
+<body class="body-form-background">
+    <div class="form-container">
+        <div class="text-center">
+            <h1 class="text-center">
+                Login
+            </h1>
+            <form method="post" action="user/bootcamp/contact">
 
+                <fieldset>
+                    <label for="Usuario">Usuario</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome"></input>
+                </fieldset>
+
+                <fieldset>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="E-mail" placeholder="Digite seu E-mail">
+                </fieldset>
+
+                <fieldset>
+                    <label for="senha">Password</label>
+                    <input type="password" name="Senha" placeholder="Password">
+                </fieldset>
+            </form>
+
+            <div>
+                <button>Logar</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
