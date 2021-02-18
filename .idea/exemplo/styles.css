@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+}
+
+.input-search {
+    width: 300px;
+}
+
+.img-logo {
+    width: 300px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.container {
+    height: 500px;
+    position: relative;
+    border: red;
+
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+button {
+    border: skyblue 1px solid;
+}

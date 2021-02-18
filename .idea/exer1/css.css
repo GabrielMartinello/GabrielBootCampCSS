@@ -1,0 +1,40 @@
+html{
+    font-family: Roboto;
+}
+
+body {
+    background-image: url('gettyimages-1132930101.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-plane {
+    width: 600px;
+    height: auto;
+    margin-left: 40px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    padding: 8px;
+}
+
+iframe {
+    border: none;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
