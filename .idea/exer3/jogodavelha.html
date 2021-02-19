@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+
+<div align="center">
+    <h1>Jogo da Velha</h1>
+    <div>
+        <input id="valor1" type="text" onclick="play(id)">
+        <input id="valor2" type="text" onclick="play(id)">
+        <input id="valor3" type="text" onclick="play(id)">
+    </div>
+
+    <div>
+        <input id="valor4" type="text" onclick="play(id)">
+        <input id="valor5" type="text" onclick="play(id)">
+        <input id="valor6" type="text" onclick="play(id)">
+    </div>
+
+    <div>
+        <input id="valor7" type="text" onclick="play(id)">
+        <input id="valor8" type="text" onclick="play(id)">
+        <input id="valor9" type="text" onclick="play(id)">
+
+        <h1>Jogador da Vez: <span id="jogador"></span></h1>
+        <p class="card-text"><small class="text-muted">Numero de jogadas: </small></p>
+        <button type="reset" value="Reset" class="btn btn-outline-secondary">Reiniciar</button>
+    </div>
+</div>
+<script src="jogodavelha.js"></script>
+</body>
+</html>
